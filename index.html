@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us Form</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="MengaturLayout">
+      <div class="Logo">Mondisplay</div>
+      <div class="kanan">
+        <div class="ITEM1">Home</div>
+        <div class="ITEM1">Car-Package</div>
+        <div class="ITEM1">Call-Us</div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="Judul">
+        <h1 class="subjudul">Top Rated E-Groceires Shop-in Indonesia</h1>
+        <span class="subjudul2">Everdays With Best Ingridients</span>
+      </div>
+      <div class="Layout">
+        <div class="aturan">
+          <div class="gambarkekiri">
+            <img id="macbook" src="./image/macbook.jpg" alt="avengers">
+          </div>
+          <div class="Rounded">
+            <img src="./image/ilhamrec.png" alt="Rounded">
+            <p>Routhless Argantaes <span>Scobidoy bidoy</span></p>
+          </div>
+          <div class="Promosi">
+            <div class="Brand"><img onclick=frontendweb() src="./image/laptop2.png" alt="century"></div>
+            <div   class="Brand"><img onclick=frontendweb2() id="laptop2" src="./image/laptop.png" alt="century"></div>
+            <div   class="Brand"><img onclick=frontendweb3() id="laptop3" src="./image/laptop3.png" alt="century"></div>
+          </div>
+        </div>
+        <div class="gambarkekanan">
+          <div class="formdata">
+            <div class="contact">
+              <h2>Contact</h2>
+              <p>Kami akan menunggu jawaban anda 1 kali 24 jam </p>
+            </div>
+            <form class="gap" action="https://wa.me/085939429909" onsubmit="return formsValidation()" method="post">
+              <label for="Nama">Your Name</label>
+              <input class="besaran" type="text" name="Name" id="Name" required />
+              <span class="slaah"></span>
+              <label for="Gmail">Your Gmail</label>
+              <input class="besaran" type="text" name="Gmail" id="Gmail" required />
+              <span class="slaah"></span>
+              <label for="Hobby">What Are You Interested</label>
+              <select class="besaran" name="Hobby" id="Hobby" required>
+                <option value="o"></option>
+                <option value="Programming" >Macbook Pro 1</option>
+                <option value="Traveling">Macbook Pro 2</option>
+                <option value="Sleep">Macbook Pro 3</option>
+                <span class="slaah"></span>
+              </select>
+              <button id="clicken" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+  </main>
+
+
+
+  <script src="./JS/index.js"></script>
+
+</body>
+
+</html>

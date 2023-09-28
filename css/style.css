@@ -1,0 +1,471 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.MengaturLayout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 400px;
+}
+
+.MengaturLayout>.kanan {
+    display: flex;
+    
+  
+
+}
+
+.Logo {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    color: rgb(101, 101, 255);
+   margin-bottom: 10px;
+
+}
+
+.ITEM1 {
+    font-size: 0.8rem;
+    border: 1px solid rgb(129, 81, 81);
+    font-family: poppins, sans-serif;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.ITEM1:hover{
+    font-size: 0.8rem;
+    border: 1px solid rgb(255, 0, 0);
+    font-family: poppins, sans-serif;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5%;
+    color: white;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    background-color: blue;
+}
+.Judul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.Judul>.subjudul {
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size:1.9rem;
+}
+
+
+.Judul>.subjudul2 {
+    font-size: 1rem;
+    font-family: poppind, sans-serif;
+    font-weight: bold;
+    color: rgb(111, 111, 247);
+
+}
+
+section {
+    margin-top: 50px;
+}
+
+.Layout {
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+
+.Gambarkekanan {
+
+    display: flex;
+   
+    
+    box-sizing: border-box;
+    
+}
+
+.formdata {
+    border: 2px solid rgb(103, 161, 255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 242, 255);
+
+}
+.formdata .gap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+
+
+.formdata .besaran {
+    height: 30px;
+    border: 2px solid black;
+}
+.formdata form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    max-width: 200px;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+
+
+.formdata label {
+    font-family: poppins, sans-serif;
+    font-size: 0.8rem;
+}
+
+.formdata input {
+    color: gray;
+    font-family: poppins, sans-serif;
+    font-size: 10px;
+
+
+}
+
+.formdata select {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(106, 47, 255);
+    font-size: 0.8rem;
+    color: white;
+    font-family: poppins, sans-serif;
+    height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.gambarkekiri{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+   
+    margin-bottom: -30px;
+}
+
+.gambarkekiri > img {
+    display: block;
+   width: 30em;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(52,234,255);
+    border: 2px  solid rgb(25, 0, 255);
+    
+}
+
+.Rounded {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+    
+}
+
+.Promosi {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+.Promosi .Brand {
+    width: 50px;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.Promosi .Brand:hover{
+    background-color: rgb(172, 172, 172);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    width: 50px;
+    height: 50px;
+}
+
+.Brand > img {
+   object-fit: cover;
+    width: 50px;
+}
+
+
+.Rounded p {
+    font-size: 0.7rem;
+    font-family: poppins, sans-serif;
+    max-width: 150px;
+}
+.Rounded p > span {
+    font-size: 0.6rem;
+}
+
+.Rounded > img {
+  
+    width: 50px;
+}
+
+
+/* Responsive  */
+
+@media screen and (max-width:400px) {
+    .Layout {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .Rounded {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    
+.gambarkekiri > img {
+    display: block;
+   width: 15em;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(52,234,255);
+    border: 2px  solid rgb(25, 0, 255);
+    
+}
+
+.MengaturLayout {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 0px;
+}
+.Judul {
+    margin-top: 50px;
+}
+.Judul> .subjudul2{
+    font-size: 0.7rem;
+    font-family: poppind, sans-serif;
+    font-weight: bold;
+    color: rgb(111, 111, 247);
+ 
+
+}
+
+.Judul>.subjudul {
+    margin: auto;
+    max-width: 250px;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+} 
+
+
+    
+}
+
+
+@media screen and (max-width:502px) {
+    .Layout {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .Rounded {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    
+.gambarkekiri > img {
+    display: block;
+   width: 17em;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(52,234,255);
+    border: 2px  solid rgb(25, 0, 255);
+    
+}
+
+.MengaturLayout {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 0px;
+}
+.Judul {
+    margin-top: 50px;
+}
+.Judul> .subjudul2{
+    font-size: 0.7rem;
+    font-family: poppind, sans-serif;
+    font-weight: bold;
+    color: rgb(111, 111, 247);
+ 
+
+}
+
+.Judul>.subjudul {
+    margin: auto;
+    max-width: 250px;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+   
+    
+}
+
+@media screen and (max-width:767px) {
+    .Layout {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .Rounded {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    
+.gambarkekiri > img {
+    display: block;
+   width: 20em;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(52,234,255);
+    border: 2px  solid rgb(25, 0, 255);
+    
+}
+
+.MengaturLayout {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    margin-top: 20px;
+    gap: 0px;
+}
+.Judul {
+    margin-top: 50px;
+}
+.Judul> .subjudul2{
+    font-size: 0.7rem;
+    font-family: poppind, sans-serif;
+    font-weight: bold;
+    color: rgb(111, 111, 247);
+ 
+
+}
+
+.Judul>.subjudul {
+    margin: auto;
+    max-width: 250px;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+
+
+
+    
+}
+
+
+/* KEJAR WAKTU AMA TUGAS KAMPUS GAKEBURU BUAT SEMUANYA MAAF */
